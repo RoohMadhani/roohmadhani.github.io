@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }} · {{ site.tagline }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description | strip_newlines }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/images/logo.png' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Questrial&family=Mukta+Mahee:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Rooh Madhani — ਰੂਹ ਮਧਾਣੀ" class="brand-logo">
+        <span class="brand-name">rooh madhani <span class="brand-pa" lang="pa">ਰੂਹ ਮਧਾਣੀ</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          {% for item in site.data.navigation %}
+          <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p class="footer-brand">rooh madhani <span lang="pa">ਰੂਹ ਮਧਾਣੀ</span></p>
+      <p>Helping children connect with their roots through play.</p>
+      <p>Clifton Park, New York · <a href="https://www.roohmadhani.com">www.roohmadhani.com</a></p>
+      <p class="footer-legal">© {{ 'now' | date: "%Y" }} Rooh Madhani, LLC. Founded 2021.</p>
+    </div>
+  </footer>
+</body>
+</html>

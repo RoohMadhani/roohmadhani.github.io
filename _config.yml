@@ -1,0 +1,14 @@
+title: Rooh Madhani
+tagline: ਰੂਹ ਮਧਾਣੀ
+description: >-
+  Rooh Madhani is a small studio with a big mission: helping children connect
+  with their roots through play. We design child-friendly, accessible language
+  apps, toys, games, and flashcards for underrepresented languages.
+url: "https://roohmadhani.github.io"
+baseurl: ""
+lang: en
+
+# Jekyll build settings
+markdown: kramdown
+exclude:
+  - README.md

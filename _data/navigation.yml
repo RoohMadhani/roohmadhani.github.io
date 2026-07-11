@@ -1,0 +1,9 @@
+# Site navigation. To add a page to the banner, add an entry here:
+#   - title: Page Name
+#     url: /page-name/
+- title: About
+  url: /about/
+- title: Language Products
+  url: /products/
+- title: Resources
+  url: /resources/
