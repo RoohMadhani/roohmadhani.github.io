@@ -1,8 +1,8 @@
-/* Rooh Madhani — brand styles
-   Fonts: Lilita One (display), Questrial (body) — per brand guidelines.
+/* Rooh Madhani brand styles.
+   Fonts: Lilita One (display), Questrial (body), per brand guidelines.
    Mukta Mahee for Gurmukhi (ਪੰਜਾਬੀ) glyph support.
    Fonts are self-hosted (see assets/fonts/) so the site makes no
-   third-party requests — visitor IPs never leave our host. */
+   third-party requests; visitor IPs never leave our host. */
 
 @font-face {
   font-family: 'Lilita One';

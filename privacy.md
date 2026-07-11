@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Privacy Policy
-subtitle: The short version — we don't collect your data
+subtitle: The short version, we don't collect your data
 permalink: /privacy/
 description: "Rooh Madhani's website privacy policy: no cookies, no analytics, no tracking, and no data collection."
 ---
@@ -17,7 +17,7 @@ Rooh Madhani, LLC ("we," "us") makes tools for children and families, so we hold
 - sets **no cookies**
 - runs **no analytics or tracking**
 - has **no accounts, forms, or sign-ups**
-- makes **no requests to third-party services** — all fonts, images, and styles are served from our own site, so your visit is not shared with advertising or font networks
+- makes **no requests to third-party services**: all fonts, images, and styles are served from our own site, so your visit is not shared with advertising or font networks
 
 ## Hosting
 
@@ -31,7 +31,7 @@ Our apps, such as Punjabi Bol, have their own privacy practices, described on th
 
 ## Your rights
 
-Privacy laws such as the EU's GDPR and various US state laws give you rights over personal data an organization holds about you. Because this website collects no personal data, there is typically nothing for us to access, correct, or delete — but if you have any question or concern, we want to hear it.
+Privacy laws such as the EU's GDPR and various US state laws give you rights over personal data an organization holds about you. Because this website collects no personal data, there is typically nothing for us to access, correct, or delete, but if you have any question or concern, we want to hear it.
 
 ## Contact
 
