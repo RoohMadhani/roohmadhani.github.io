@@ -6,9 +6,8 @@
   <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }} · {{ site.tagline }}{% endif %}</title>
   <meta name="description" content="{{ page.description | default: site.description | strip_newlines }}">
   <link rel="icon" type="image/png" href="{{ '/assets/images/logo.png' | relative_url }}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Questrial&family=Mukta+Mahee:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="{{ '/assets/fonts/lilita-one-400-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ '/assets/fonts/questrial-400-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
@@ -39,6 +38,10 @@
       <p class="footer-brand">rooh madhani <span lang="pa">ਰੂਹ ਮਧਾਣੀ</span></p>
       <p>Helping children connect with their roots through play.</p>
       <p>Clifton Park, New York · <a href="https://www.roohmadhani.com">www.roohmadhani.com</a></p>
+      <nav class="footer-nav" aria-label="Legal">
+        <a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a> ·
+        <a href="{{ '/accessibility/' | relative_url }}">Accessibility</a>
+      </nav>
       <p class="footer-legal">© {{ 'now' | date: "%Y" }} Rooh Madhani, LLC. Founded 2021.</p>
     </div>
   </footer>

@@ -1,7 +1,8 @@
 # roohmadhani.github.io
 
 The Rooh Madhani (ਰੂਹ ਮਧਾਣੀ) website, served by GitHub Pages at
-https://roohmadhani.github.io.
+https://www.roohmadhani.com (custom domain via `CNAME`; also
+https://roohmadhani.github.io).
 
 Built with Jekyll (GitHub Pages builds it automatically — no local tooling
 required to publish; just push to `main`).
@@ -38,8 +39,22 @@ banner navigation, and footer.
 - `_data/navigation.yml` — banner navigation links
 - `assets/css/style.css` — brand styles (colors and fonts from the Rooh
   Madhani brand guidelines: Lilita One for display, Questrial for body)
+- `assets/fonts/` — self-hosted webfonts (OFL-licensed; see LICENSE.md there)
 - `assets/images/logo.png` — logo (exported from Canva; source designs
   live in Canva)
+
+## Compliance posture (keep it this way)
+
+The site intentionally collects **nothing**: no cookies, no analytics, no
+forms, and **no third-party requests** (fonts are self-hosted rather than
+loaded from Google's CDN, which would transmit visitor IPs to Google — a
+GDPR problem and a COPPA concern for a children's brand). The privacy
+policy (`privacy.md`) promises this, so if you ever add analytics, embeds
+(YouTube, social widgets), or forms, update `privacy.md` first and expect
+to need a consent banner for EU visitors. Text colors are chosen to meet
+WCAG 2.1 AA contrast (see `accessibility.md`); raw brand terracotta
+`#C6804C` fails as a text/background color for white or dark text — use
+`--terracotta-ink` for text on light backgrounds.
 
 ## Brand palette
 
