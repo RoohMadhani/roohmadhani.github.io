@@ -8,6 +8,11 @@ url: "https://roohmadhani.github.io"
 baseurl: ""
 lang: en
 
+# Punjabi Bol App Store link. Leave blank until the app is published, then
+# paste the App Store URL here — the "Download on the App Store" badge on the
+# home and products pages flips from "Coming soon" to a live link automatically.
+punjabi_bol_appstore_url: ""
+
 # Jekyll build settings
 markdown: kramdown
 exclude:

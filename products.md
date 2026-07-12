@@ -8,9 +8,13 @@ description: "Explore Rooh Madhani's language products, including Punjabi Bol, a
 
 ## Punjabi Bol! <span lang="pa">ਪੰਜਾਬੀ ਬੋਲ</span>
 
+<img src="{{ '/assets/images/punjabi-bol-logo.png' | relative_url }}" alt="Punjabi Bol, ਪੰਜਾਬੀ ਬੋਲ" class="product-logo">
+
 **Punjabi Bol** is a warm, easy-to-use Punjabi learning app for the whole family. Built for little ones learning their first words, and for older kids and adults picking up the basics for the first time, it teaches through bright visuals and clear native audio, so learning feels like play, not homework.
 
-Available now on the **Apple App Store** and **Apple TV**, with more platforms on the way.
+Coming soon to the **Apple App Store** and **Apple TV**, with more platforms on the way.
+
+{% include appstore-badge.html %}
 
 ## What's next
 

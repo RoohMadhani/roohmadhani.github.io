@@ -252,6 +252,52 @@ img { max-width: 100%; height: auto; }
 .btn-secondary { background: var(--terracotta-ink); color: #fff; }
 .btn-light { background: #fff; color: var(--green-deep); border: 2px solid var(--green-deep); }
 
+/* App Store badge (self-hosted Apple mark, no third-party requests) */
+.appstore-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.65rem 1.4rem;
+  border-radius: 14px;
+  border: 1px solid #000;
+  line-height: 1.1;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.appstore-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(51, 38, 26, 0.22);
+}
+.appstore-badge svg { width: 26px; height: 26px; flex: none; fill: #fff; }
+.appstore-badge .badge-text { display: flex; flex-direction: column; text-align: left; }
+.appstore-badge .badge-lead { font-size: 0.72rem; letter-spacing: 0.02em; opacity: 0.9; }
+.appstore-badge .badge-name {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  letter-spacing: 0.01em;
+}
+
+/* Not-yet-published state: same footprint, clearly inactive */
+.appstore-badge.is-soon {
+  background: #3a3a3a;
+  border-color: #3a3a3a;
+  cursor: default;
+}
+.appstore-badge.is-soon:hover { transform: none; box-shadow: none; }
+
+/* Product logo (e.g. Punjabi Bol) */
+.product-logo {
+  display: block;
+  width: 320px;
+  max-width: 70%;
+  height: auto;
+  margin: 0 0 1.5rem;
+}
+.spotlight .product-logo { margin: 0 auto 1.5rem; }
+.spotlight .appstore-badge { margin-top: 0.5rem; }
+
 /* Sections */
 .section { padding: 3.5rem 0; }
 .section-alt { background: var(--cream-warm); }
