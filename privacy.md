@@ -43,6 +43,7 @@ Privacy laws such as the EU's GDPR and various US state laws give you rights ove
 ## Contact
 
 Rooh Madhani, LLC · Clifton Park, New York
+[hello@rachelkaur.com](mailto:hello@rachelkaur.com)
 [www.roohmadhani.com](https://www.roohmadhani.com)
 
 ## Changes to this policy
