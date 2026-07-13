@@ -88,7 +88,14 @@ body {
   font-size: 1.125rem;
   line-height: 1.65;
   color: var(--ink);
-  background: var(--cream);
+  /* Cream base with a soft, playful tile of learning motifs. The PNG is
+     already pale/transparent, so it reads as gentle texture. Warm sections,
+     cards, header and footer have solid backgrounds that cover it, so the
+     pattern shows only on the plain-cream areas (e.g. "What we make"). */
+  background-color: var(--cream);
+  background-image: url('../images/playful-background.png');
+  background-repeat: repeat;
+  background-size: 480px auto;
 }
 
 .wrap {
