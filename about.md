@@ -12,16 +12,12 @@ We started with Punjabi and are growing toward Hindi, Sanskrit, and Tamil, one c
 
 ## The problem we saw
 
-Families who want to pass on languages like Punjabi and Tamil find almost nothing made for young children. The fun, accessible learning tools that exist for major world languages simply aren't there for these mother tongues.
+Families who want to pass on languages like Punjabi and Tamil struggle to find the same fun, accessible learning tools that exist for major world languages.
 
 ## What we're doing about it
 
-We build fun, accessible tools that teach these languages from the ground up, so every child has an opportunity to make a deeper connection with their culture. Everything we make is:
+We build tools that teach these languages from the ground up, so every child has an opportunity to make a deeper connection with their culture. Everything we make is:
 
 - **Child-friendly**: bright visuals, playful interactions, and no reading required to get started
 - **Accessible**: clear native audio, simple navigation, and designs that work for the whole family
 - **Rooted in culture**: made with love for the languages and the communities that speak them
-
-## Where we are
-
-Rooh Madhani is based in Clifton Park, New York. You can find us at [www.roohmadhani.com](https://www.roohmadhani.com).
