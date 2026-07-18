@@ -336,6 +336,33 @@ img { max-width: 100%; height: auto; }
   margin: 0 auto 0.5rem;
 }
 
+/* Tara beside the intro copy (products page) */
+.intro-with-mascot {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+  margin: 1.5rem 0;
+}
+.mascot-inline {
+  flex: 0 0 200px;
+  max-width: 200px;
+  margin: 0;
+}
+.mascot-inline .mascot-img {
+  width: 200px;
+  max-width: 100%;
+  margin: 0 auto 0.6rem;
+}
+.mascot-inline figcaption {
+  font-size: 0.92rem;
+}
+.intro-copy > :first-child { margin-top: 0; }
+.intro-copy > :last-child { margin-bottom: 0; }
+@media (max-width: 640px) {
+  .intro-with-mascot { flex-direction: column; text-align: center; gap: 1rem; }
+  .mascot-inline { flex-basis: auto; }
+}
+
 /* Sections */
 .section { padding: 3.5rem 0; }
 .section-alt { background: var(--cream-warm); }
