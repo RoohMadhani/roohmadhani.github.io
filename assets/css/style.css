@@ -317,6 +317,32 @@ img { max-width: 100%; height: auto; }
 .appstore-cta .appstore-badge .badge-name { font-size: 1rem; }
 .appstore-cta .appstore-badge .badge-lead { font-size: 0.62rem; }
 
+/* Tara mascot */
+.mascot {
+  margin: 2.5rem auto 0;
+  max-width: 420px;
+  text-align: center;
+}
+.mascot-img {
+  display: block;
+  width: 360px;
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto 1rem;
+}
+.mascot figcaption {
+  color: var(--green-deep);
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+.spotlight-mascot {
+  display: block;
+  width: 200px;
+  max-width: 45%;
+  height: auto;
+  margin: 0 auto 0.5rem;
+}
+
 /* Sections */
 .section { padding: 3.5rem 0; }
 .section-alt { background: var(--cream-warm); }

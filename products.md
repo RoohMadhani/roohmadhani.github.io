@@ -17,6 +17,11 @@ Coming soon to the **Apple App Store** and **Apple TV**, with more platforms on 
 
 <div class="appstore-cta">{% include appstore-badge.html %}</div>
 
+<figure class="mascot">
+  <img src="{{ '/assets/images/tara-lion.png' | relative_url }}" alt="Tara, the Punjabi Bol mascot: a friendly blue lion with a golden mane and the Gurmukhi letter ਤ on his belly" class="mascot-img" width="360" height="384" loading="lazy">
+  <figcaption>Meet <strong>Tara</strong> <span lang="pa">ਤਾਰਾ</span>, our friendly lion. He cheers little ones on as they learn their very first Punjabi words.</figcaption>
+</figure>
+
 ## What's next
 
 We're growing one colorful step at a time. Here's where we're headed:
