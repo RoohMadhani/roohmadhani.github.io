@@ -346,14 +346,16 @@ img { max-width: 100%; height: auto; }
 }
 .spotlight-brand .product-logo,
 .spotlight-brand .spotlight-mascot {
-  width: 240px;
-  max-width: 40%;
   height: auto;
   margin: 0;
 }
+.spotlight-brand .product-logo { width: 240px; max-width: 40%; }
+/* Tara's art fills its box more than the logo bubble, so size him down to
+   optically match the logo (equal visible area). */
+.spotlight-brand .spotlight-mascot { width: 185px; max-width: 31%; }
 @media (max-width: 640px) {
-  .spotlight-brand .product-logo,
-  .spotlight-brand .spotlight-mascot { max-width: 60%; }
+  .spotlight-brand .product-logo { max-width: 62%; }
+  .spotlight-brand .spotlight-mascot { max-width: 48%; }
 }
 
 /* Tara beside the intro copy (products page) */
